@@ -13,13 +13,6 @@ ResNet50 (standard fine-tuning)
 Training:
 Used Adam optimizer, learning rate scheduling, and dropout for regularization. Models trained for N epochs with mini-batches.
 
-Evaluation:
-Evaluated on the validation set using:
-
-Accuracy: XX% (MobileNetV2), YY% (ResNet50)
-
-F1-Score: AA (MobileNetV2), BB (ResNet50)
-
 MobileNetV2 was observed to perform better in terms of training efficiency and achieved comparable or better generalization than ResNet50 on this dataset.
 
 
